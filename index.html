@@ -159,15 +159,12 @@
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">
-            Sample Template
-          </p>
+          <p class="lead">Sample Template</p>
         </div>
       </div>
-
-            <div class="row-fluid pitch">
+      <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" height="300" width="480" src="http://individual.utoronto.ca/nicoledlyma/images/portrait.jpg">
+          <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
@@ -175,32 +172,61 @@
           <div class="row-fluid">
           <div class="span8 offset2">
             <div class="row-fluid statistics">
-              <h3>Keep In Touch</p>
+              <div class="span4">
+                <!-- linediv-l and linediv-r give dividing lines that look
+                different in horizontal and vertical layouts, illustrating
+                media queries. -->
+                <div class="linediv-l">
+                <h3>1000</h3> <p>backers</p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="linediv-c">
+                  <h3>$6000</h3> <p>of $10,000</p>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="linediv-r">
+                <h3>10</h3> <p>days left</p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row-fluid">
+          <div class="span10 offset1">
+            <!-- Bootstrap progress bar -->
+            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+            <div class="thermometer progress active">
+              <div class="bar bar-success" style="width: 60%;"></div>
+              <div class="bar bar-warning" style="width: 40%;"></div>
+            </div>
+          </div>
+          </div>
+          <div class="row-fluid">
           <div class="span6 offset3 order">
+<!-- Coinbase Button BEGIN -->            
+<a class="coinbase-button" data-code="dae263051c4bdec53b826d11c3f5da6d" href="https://coinbase.com/checkouts/dae263051c4bdec53b826d11c3f5da6d">Pay With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+<!-- Coinbase Button END -->
           </div>
           </div>
           <div class="row-fluid">
           <div class="span8 offset2 social">
-<!-- AddThis Follow BEGIN -->
-<p>Keep In Touch</p>
-<div class="addthis_toolbox addthis_32x32_style addthis_default_style">
-<a class="addthis_button_twitter_follow" addthis:userid="dlymanicole"></a>
-<a class="addthis_button_linkedin_follow" addthis:userid="dlymanicole"></a>
-<a class="addthis_button_google_follow" addthis:userid="113353984199768070179"></a>
-<a href="http://be.net/dlymanicole"><img src="http://a2.behance.net/img/portfolio/badges/badges/be-badge-large.png"></a>
+         <!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
 </div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5201bd6662d4acdb"></script>
-<!-- AddThis Follow END -->
-
+<!-- AddThis Button END -->
           </div>
           </div>
         </div>
         </div>
       </div>
-    
+
       <!-- Beyond this part the marketing copy begins. -->
       <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
       <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
@@ -252,30 +278,18 @@
       <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
       <div class="row-fluid faq">
           <div class="span10 offset1">
-            <h3>Courses</h3>
+            <h3>FAQ</h3>
             <div class="accordion" id="accordion2">
               <div class="accordion-group">
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    Year One
+                    What is this page?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    CIV102: Structures and Materials<br />
-                    CSC180: Intro to Computer Programming<br />
-                    ESC101: Praxis I<br />
-                    ESC103: Engineering Mathematics and Computation<br />
-                    PHY180: Classical Mechanics<br />
-                    MAT194: Calculus I<br />
-                    <br />
-                    CSC190: Computer Algorithms and Data Structures <br />
-                    ECE159: Fundamentals of Electric Circuits<br />
-                    ESC102: Praxis II <br />
-                    MAT185: Linear Algebra <br />
-                    MAT195: Calculus II <br />
-                    MSE160: Molecules and Materials <br />
+                    A basic bitstarter app built for <b>the sole purpose of gaining experience</b> with the development of a web application and things associated with the development such as - git, AWS, Heroku, JavaScript etc. Note: BTC Payment system is functional.  
                   </div>
                 </div>
               </div>
@@ -283,24 +297,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    Year Two
+                    What's a Frequently Asked Question?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    ECE212: Circuit Analysis <br />
-                    ECE241: Digital Systems <br />
-                    ECE244: Programming Fundamentals <br />
-                    MAT290: Advanced Engineering Math <br />
-                    MAT291: Calculus III <br />
-                    <br />
-                    ECE216: Signals and Systems <br />
-                    ECE221: Electric and Magnetic Fields <br />
-                    ECE231: Intro to Electronics <br />
-                    ECE243: Computer Organization <br />
-                    ECE297: Software Communication and Design <br />
-                    <br />
-                    JRE410: Markets and Competitive Strategy<br />
+                    A question which is commonly asked by users.
                   </div>
                 </div>
               </div>
